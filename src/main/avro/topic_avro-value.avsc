@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "Employee",
+  "namespace": "io.lfr.models",
+  "fields": [
+    {
+      "name": "first_name",
+      "type": "string",
+      "doc": "First name of employee"
+    },
+    {
+      "name": "last_name",
+      "type": "string",
+      "doc": "Last name of employee"
+    },
+    {
+      "name": "age",
+      "type": "int",
+      "doc": "age of employee"
+    }
+  ],
+  "version": 1
+}
